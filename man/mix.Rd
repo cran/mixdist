@@ -71,7 +71,7 @@ A list containing the following items:
 \seealso{
  \code{\link{mixgroup}} for grouping data, \code{\link{mixparam}} for
  organizing the parameter values, \code{\link{mixconstr}} for
- constructing constraints. \code{\link[base]{nlm}} for additional
+ constructing constraints. \code{\link{nlm}} for additional
  arguments.
 }
 \examples{

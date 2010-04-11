@@ -41,7 +41,7 @@ mixgroup(x, breaks = NULL, xname = NULL, k = NULL, usecondit = FALSE)
  with grouped data.
 }
 \seealso{
-\code{\link[base]{hist}} for more information about the argument
+\code{\link{hist}} for more information about the argument
 \code{breaks}, \code{\link{is.mixdata}} for checking the class of 
 data sets, \code{\link{mixparam}} for organizing the parameter
 values, \code{\link{mixconstr}} for constructing constraints.

@@ -34,14 +34,14 @@ testpar(mixpar, dist, constr)
  ascending order. Furthermore, the parameter values should 
  be consistent with the constraints and the distribution
  of components. For example, if one wants to constrain
- the means to lie along a growth curve, then $(\mu_3 - \mu_2) < (\mu_2 - \mu_1)$
- is required. Also, negative means are not permitted by 
+ the means to lie along a growth curve, then (\eqn{\mu_3} - \eqn{\mu_2}) < 
+ (\eqn{\mu_2} - \eqn{\mu_1}) is required. Also, negative means are not permitted by 
  the constraints \code{"FCV"}, \code{"CCV"}, \code{"BINOM"}, \code{"NBINOM"}, 
  \code{"POIS"} and all the distributions but Normal. If the 
  Binomial distribution components with the constraint \code{"BINOM"}
- are fitted, then the relation $\mu_i > \sigma_i^2$ need to be
+ are fitted, then the relation \eqn{\mu_i} > \eqn{(\sigma_i)^2} need to be
  satisfied. And the Negative Binomial components with the 
- constraint \code{"NBINOM"} require $\mu_i < \sigma_i^2$.
+ constraint \code{"NBINOM"} require \eqn{\mu_i} < \eqn{(\sigma_i)^2}.
 }
 \references{
   Macdonald, P.D.M. and Green, P.E.J. (1988) \emph{User's Guide to Program MIX: 

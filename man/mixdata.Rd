@@ -43,5 +43,5 @@ as.mixdata(pike65)
 is.mixdata(pike65)
 is.mixdata(as.mixdata(pike65))
 }
-\keyword{classes}{mixdata}
-\keyword{attribute}{mixdata}
+\keyword{manip}
+\keyword{attribute}

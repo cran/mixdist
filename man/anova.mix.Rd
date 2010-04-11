@@ -39,7 +39,7 @@ them do not, it returns \code{NULL}.
 }
 \seealso{
   The model fitting function \code{\link{mix}}, the generic function
-  \code{\link[base]{anova}}.
+  \code{\link{anova}}.
 }
 \examples{
 data(pike65) # load the grouped data `pike65'
@@ -52,4 +52,4 @@ anova(fitpike2)
 anova(fitpike1, fitpike2)
 anova(fitpike2, fitpike1)
 }
-\keyword{models}{anova}
+\keyword{models}

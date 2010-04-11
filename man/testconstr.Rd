@@ -13,9 +13,9 @@ testconstr(mixdat, mixpar, dist, constr)
  column should be right boundaries of grouping intervals, whose 
  second column should consist of the frequencies indicating 
  numbers of observations falling into each interval. If conditional 
- data are available, this data frame should have k + 2 columns, 
- where k is the number of components, whose element in row j 
- and column i + 2 is the number of observations from the jth 
+ data are available, this data frame should have \eqn{k} + 2 columns, 
+ where \eqn{k} is the number of components, whose element in row \eqn{j} 
+ and column \eqn{i} + 2 is the number of observations from the jth 
  interval belonging to the ith component.}
 \item{mixpar}{a data frame containing the values for parameters
  of component distributions, which are, in order, the proportions, 

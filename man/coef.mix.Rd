@@ -4,7 +4,7 @@
 \description{
   \code{coef.mix} is a function which extracts mixture model coefficients
   from objects returned by the model fitting function \code{\link{mix}}. It is 
-  called via the generic function \code{\link[base]{coef}}.
+  called via the generic function \code{\link{coef}}.
 }
 \usage{
 \method{coef}{mix}(object, natpar = FALSE, \dots)
@@ -33,4 +33,4 @@ fit <- mix(pike65, pikepar, "lnorm", mixconstr(consigma = "CCV"), emsteps = 3)
 coef(fit)
 coef(fit, natpar = TRUE)
 }
-\keyword{models}{coefficients}
+\keyword{models}

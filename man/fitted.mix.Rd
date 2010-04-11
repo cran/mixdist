@@ -45,4 +45,4 @@ data(pike65sg)
 fit2 <- mix(pike65sg, pikepar, "gamma", mixconstr(consigma = "CCV"), usecondit = TRUE)
 fitted(fit2, digits = 2)
 }
-\keyword{models}{fitted.values}
+\keyword{models}

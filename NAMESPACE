@@ -1,5 +1,16 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
 # Export all names
 exportPattern(".")
+
+importFrom("graphics", "hist", "lines", "plot", "points", "rect",
+           "title")
+importFrom("stats", "dbinom", "dgamma", "dlnorm", "dnbinom", "dnorm",
+           "dpois", "dweibull", "nlm", "pbinom", "pchisq", "pgamma",
+           "plnorm", "pnbinom", "pnorm", "ppois", "pweibull", "var")
+
+S3method(anova,mix)
+S3method(coef,mix)
+S3method(fitted,mix)
+S3method(plot,mix)
+S3method(summary,mix)
+S3method(print,mix)
+S3method(plot,mixdata)

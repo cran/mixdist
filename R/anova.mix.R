@@ -56,7 +56,7 @@ anova.mix <- function (object, mixobj2, ...)
         if (hypo) 
             mixanova <- data.frame(Df = c(ddf, mixobj$df), Chisq = c(dchisq, 
                 mixobj$chisq), `Pr(>Chisq)` = c(pchisq(dchisq, 
-                ddf, low = FALSE), mixobj$P), row.names = c("Hypothesis", 
+                ddf, lower.tail = FALSE), mixobj$P), row.names = c("Hypothesis", 
                 "Residuals"), check.names = FALSE)
         else mixanova <- data.frame(Df = mixobj1$df, Chisq = mixobj1$chisq, 
             `Pr(>Chisq)` = mixobj1$P, row.names = "Residuals", 

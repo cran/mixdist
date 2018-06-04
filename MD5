@@ -1,6 +1,6 @@
-a75e495f3c4bdbb6f553571adca3addb *DESCRIPTION
-9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-ac0d2ac4ed1b169b3033951618b2968f *R/anova.mix.R
+fd15ac03947b30ffc6b7ddf422b3dbbe *DESCRIPTION
+376652d2eacfb5ba9983766699bf0302 *NAMESPACE
+6332359f218fb899f0785e9edfc4c79f *R/anova.mix.R
 4d7a09fa8ba17aff3bd114a66fd46c4b *R/as.mixdata.R
 6822f294617c5a68c92161d86a243f0a *R/coef.mix.R
 5224fef90593f546e7f523b59d6a2805 *R/conditdat.R
@@ -48,7 +48,7 @@ fe987ef8bcc359f4f1a7b642e6626e4b *man/fiftn80.Rd
 0262a2065f96c195c6a7bbde5c0e0e6e *man/fitted.mix.Rd
 399953223fcdce1e50c87a05c046fe4a *man/groupstats.Rd
 8450cb9641df64fd76a0de935336c6e7 *man/grpintprob.Rd
-e418a16194a618ed266c0f3f7b929d01 *man/mix.Rd
+8fb2a94add27443836a7c615a1049b34 *man/mix.Rd
 1477c69fada0472cc142ddebdda20141 *man/mixconstr.Rd
 02af6e92cd62171657834f4b44da1705 *man/mixdata.Rd
 9d9b9d2b05e3b85f16c1f60c370ec825 *man/mixgroup.Rd
@@ -63,7 +63,7 @@ b53520ca59f69036715b5335b717378d *man/pike65.Rd
 a2baca003dd8a18d679fa30e6898c796 *man/pike65sg.Rd
 ac9aa768ee2b8ff3ed5c1c119abca17b *man/pikepar.Rd
 3bd4d4fd0a113dfe42db3405967ed1c4 *man/pikeraw.Rd
-592dc81b667a723115aafcfbab6cef40 *man/plot.mix.Rd
+94a9ceb11660a8edcac3529e1a4fec97 *man/plot.mix.Rd
 da5a892a6039316259a5cbe3bd1ddb11 *man/plot.mixdata.Rd
 aa04fbf33da3d73a8cea7e416967d6e5 *man/poisdat.Rd
 7592962982b665c1732da42b255de3f6 *man/poispar.Rd

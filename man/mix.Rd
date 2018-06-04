@@ -86,10 +86,12 @@ fitpike2
 plot(fitpike2)
 data(bindat)
 data(binpar)
-fitbin1 <- mix(bindat, binpar, "binom", constr = mixconstr(consigma = "BINOM", size = c(20, 20, 20, 20)))
+fitbin1 <- mix(bindat, binpar, "binom",
+               constr = mixconstr(consigma = "BINOM", size = c(20, 20, 20, 20)))
 plot(fitbin1)
 fitbin2 <- mix(bindat, binpar, "binom", constr = mixconstr(conpi = "PFX",
-               fixpi = c(TRUE, TRUE, TRUE, TRUE), consigma = "BINOM", size = c(20, 20, 20, 20)))
+               fixpi = c(TRUE, TRUE, TRUE, TRUE),
+               consigma = "BINOM", size = c(20, 20, 20, 20)))
 plot(fitbin2)
 }
 \keyword{models}
